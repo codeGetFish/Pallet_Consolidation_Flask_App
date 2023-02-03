@@ -2,9 +2,6 @@ from flask import Flask, request, render_template
 import math
 from app import app
 
-# Initialize Flask app
-app = Flask(__name__)
-
 # Define endpoint '/' that listens to GET and POST requests
 
 
